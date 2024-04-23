@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    gap:2px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:20vw;
+    /* background-color: aquamarine; */
+    border-right: 1px solid black;
+    gap:10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.mark-down{
+    display: flex;
+    width:70vw;
+    height: auto;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.head p{
+    cursor: pointer;
+}
